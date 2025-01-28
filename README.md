@@ -74,6 +74,25 @@ Esta etapa investiga como os modelos tomam decisões, explorando técnicas de in
   - `summary_plot_shap.png`
   - `tree-interpreter-importance.png`
 
+### Detalhes Técnicos
+
+1. **Regressão Logística**:
+   - Os coeficientes dos modelos foram analisados para identificar como cada variável impacta diretamente a previsão.
+   - A análise de odds ratio mostrou a influência relativa de fatores como nível educacional e capital gain, destacando como esses fatores aumentam ou diminuem a probabilidade de um indivíduo estar em uma faixa de alta renda.
+
+2. **SHAP (SHapley Additive exPlanations)**:
+   - **Explicação Global**: O summary plot revelou que `capital gain` e `education level` foram as variáveis mais impactantes no modelo Random Forest.
+   - **Explicação Local**: Os force plots demonstraram como variáveis individuais influenciam diretamente as previsões para cada indivíduo.
+   - **Exemplo**: Um indivíduo com baixo nível educacional e sem ganhos de capital teve uma alta probabilidade de estar em uma faixa de baixa renda, confirmando tendências observadas nos dados.
+
+3. **Tree Interpreter**:
+   - Essa técnica explicou a contribuição de cada árvore no Random Forest para uma previsão específica.
+   - Foi possível verificar que `hours per week` e `relationship status` desempenharam papéis significativos nas decisões do modelo.
+
+4. **Visualizações Contrafactuais (DiCE)**:
+   - Pequenas mudanças em variáveis específicas, como `capital gain`, foram suficientes para alterar previsões de baixa para alta renda.
+   - Isso destaca a sensibilidade do modelo a certos atributos e fornece insights sobre como ajustar decisões para promover fairness.
+
 ###  Visualizações
 
 ![Coeficientes da Regressão Logística](proj_3/plots/reg_log_interprtation.png)
@@ -114,4 +133,3 @@ Este projeto busca analisar e mitigar vieses algorítmicos no conjunto de dados 
 ---
 
 🔗 Para mais detalhes, consulte a documentação de cada projeto na respectiva pasta.
-
