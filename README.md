@@ -31,9 +31,9 @@ O primeiro projeto foca na análise exploratória de dados (EDA) e no tratamento
 
 ### 📷 Visualizações
 
-![Distribuição racial por sexo](plots/sex_race_double_plot.png)
+![Distribuição racial por sexo](proj_1/plots/sex_race_double_plot.png)
 
-![Distribuição de renda por país de origem](plots/income_by_native_country_plot.png)
+![Distribuição de renda por país de origem](proj_1/plots/income_by_native_country_plot.png)
 
 ---
 
