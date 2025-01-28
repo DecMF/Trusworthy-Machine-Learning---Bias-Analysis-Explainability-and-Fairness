@@ -52,7 +52,7 @@ Nesta segunda etapa, o foco está no treinamento e otimização de hiperparâmet
 
 ###  Visualizações
 
-![Comparação de Modelos](plots/roc_auc_and_brier_score.png)
+![Comparação de Modelos](proj_2/plots/roc_auc_and_brier_score.png)
 
 ---
 
@@ -76,15 +76,15 @@ Esta etapa investiga como os modelos tomam decisões, explorando técnicas de in
 
 ###  Visualizações
 
-![Coeficientes da Regressão Logística](plots/reg_log_interprtation.png)
+![Coeficientes da Regressão Logística](proj_3/plots/reg_log_interprtation.png)
 
-![Impacto das Variáveis](plots/reg_log_odds_ratio.png)
+![Impacto das Variáveis](proj_3/plots/reg_log_odds_ratio.png)
 
-![SHAP Force Plot](plots/shap_force_plot_js.png)
+![SHAP Force Plot](proj_3/plots/shap_force_plot_js.png)
 
-![Summary Plot SHAP](plots/summary_plot_shap.png)
+![Summary Plot SHAP](proj_3/plots/summary_plot_shap.png)
 
-![Tree Interpreter](plots/tree-interpreter-importance.png)
+![Tree Interpreter](proj_3/plots/tree-interpreter-importance.png)
 
 ---
 
